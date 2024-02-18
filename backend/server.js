@@ -16,12 +16,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //simple route
 app.get("/", (req, res) => {
-  res.json("Welcome to the Home Page!");
+    res.json("Welcome to the Home Page!");
 });
 
 //set port, listen for requests
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
+app.listen(PORT, () => {
+    console.log(`Server is running on ${PORT}`);
+});
 
 
 
