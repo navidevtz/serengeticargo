@@ -26,4 +26,18 @@ app.listen(PORT, () => {
 });
 
 
+const db = require("./app/models");
+db.mongoose
+.connect(process.env.DATABASE_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
+.then(() => {
+    console.log('MongoDB Connected')
+})
+.catch(err => {
+    console.error(err);
+    process.exit();
+});
+
 
