@@ -6,7 +6,7 @@
                 <router-link to="/track" class="nav-link">Track</router-link>
             </li>
             <li class="nav-item">
-                <router-link to="/" class="nav-link">Track</router-link>
+                <router-link to="/users/add" class="nav-link">Register</router-link>
             </li>
         </div>
     </nav>

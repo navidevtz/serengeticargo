@@ -9,7 +9,10 @@ export default new Router ({
     routes: [
         {
             path: "/",
-            alias: "/users",
+            component: Home,
+        },
+        {
+            path: "/users",
             name: "users",
             component: () => import("./components/user/Users")
         },
