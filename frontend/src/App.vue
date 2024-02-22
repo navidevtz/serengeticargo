@@ -7,13 +7,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import MainHome from './components/pages/MainHome.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     MainHome
   }
 }

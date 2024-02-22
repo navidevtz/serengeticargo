@@ -1,10 +1,16 @@
 <template>
-    <div class="">Home page</div>
+    <div class="">
+    <h3 class="">
+        {{ karibu }}
+    </h3>
+    </div>
 </template>
 
 <script>
 export default {
     name: 'MainHome',
-    title: 'Home',
+    props: {
+        karibu: String
+    }
 }
 </script>
