@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <NavBar/>
     <img alt="Vue logo" src="./assets/serengeticargo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <MainHome karibu="Karibu Serengeti Cargo"/>
@@ -9,11 +10,13 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import MainHome from './components/pages/MainHome.vue'
+import NavBar from "./components/layout/NavBar.vue"
 
 export default {
   name: 'App',
   components: {
-    MainHome
+    MainHome,
+    NavBar
   }
 }
 </script>
