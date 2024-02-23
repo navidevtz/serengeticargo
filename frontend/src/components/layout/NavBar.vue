@@ -8,18 +8,32 @@
         <a class="nav-link" href="#">Link</a>
         <a class="nav-link disabled" href="#">Disabled link</a>
     </nav> -->
-    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <router-link to="/" class="navbar-brand">My App</router-link>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <router-link to="/" class="nav-link active">Home</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/about" class="nav-link">About</router-link>
+              </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+<!--     
     <nav class="navbar">
         <div class="container">
             <router-link to="/" class="navbar-brand">Serengeti Cargo</router-link>
-            <div class="navbar-nav mr-auto">
-                <a class="nav-item">
+            <div class="">
                     <router-link to="/track" class="nav-link">Track</router-link>
-                </a>
-                <a class="nav-item">
                     <router-link to="/users/add" class="nav-link">Register</router-link>
-                </a>
             </div>
         </div>
-    </nav>
+    </nav> -->
 </template>
