@@ -10,7 +10,7 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import MainHome from './components/pages/MainHome.vue'
-import NavBar from "./components/layout/NavBar.vue"
+import NavBar from './components/layout/Navbar'
 
 export default {
   name: 'App',
